@@ -1,0 +1,17 @@
+{
+  "status":1,
+  "result":{
+    "productId":"600100002120",
+    "productName":"Boucheron宝诗龙 布龙 女士淡香水50ml",
+    "productSubName":"三八女人节特价限量免运费",
+    "productPrice":6400,
+    "productImage":"/assets/logo.png",
+    "parts":[
+      {
+        "partsId":"20001",
+        "partsName":"吸管"
+      }
+    ]
+  },
+  "message":""
+}

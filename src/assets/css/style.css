@@ -1,0 +1,128 @@
+html{font-size:100px; min-width:320px; overflow-x:hidden; -webkit-tap-highlight-color:transparent}
+html,body{ height:100%}
+body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; font-size:.28rem; line-height:1; color:#656565; background-color:white}
+
+
+/*button,input,select,textarea{font-family:inherit; font-size:inherit; line-height:inherit}*/
+a{color:#111; text-decoration:none; outline:0}
+a:focus{outline:dotted thin; outline:-webkit-focus-ring-color auto 5px; outline-offset:-2px}
+
+.wrapper{ padding:0 .3rem}
+.wrapper-con{ padding:.3rem}
+.block-center{display:block; margin-left:auto; margin-right:auto}
+.m-t{margin-top:.3rem}
+.m-r{margin-right:.3rem}
+.m-l{margin-left:.3rem}
+.m-tmin{margin-top:.1rem}
+
+.border_t{ border-top:1px solid #d8d8d8!important}
+.border_r{ border-right:1px solid #d8d8d8!important}
+.border_b{ border-bottom:1px solid #d8d8d8!important}
+.border_l{ border-left:1px solid #d8d8d8!important}
+.border_tb{ border-top:1px solid #d8d8d8; border-bottom:1px solid #ddd8ce!important}
+.border_ts{ border-top:1px solid #e4e5ea!important}
+.border_rs{ border-right:1px solid #e4e5ea!important}
+.border_bs{ border-bottom:1px solid #e4e5ea!important}
+
+.lb{margin:0; padding:0; list-style-type:none}
+
+.bg-white{background-color:white!important}
+.bg-black{background-color:#111!important}
+.bg-gray{background-color:#f2f3f6!important}
+.bg-yellow{background-color:#bca249!important}
+
+.color-black{color:#111!important}
+.color-white{color:white!important}
+.color-strong{color:#333!important}
+.color-gray{color:#666!important}
+.color-yellow{color:#bca249!important}
+.color-red{color:#ff4d4d!important}
+
+.fs20{font-size:.20rem!important}
+.fs24{font-size:.24rem!important}
+.fs26{font-size:.26rem!important}
+.fs28{font-size:.28rem!important}
+.fs32{font-size:.32rem!important}
+.fs36{font-size:.36rem!important}
+
+.text-block{line-height:1.41; text-align:justify; word-break:break-all;}
+.text-l{text-align:left}
+.text-c{text-align:center}
+.text-r{text-align:right}
+.text-line{ text-decoration:line-through;}
+.text-ellipsis{overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.text-ellipsis2{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:2;
+  -webkit-box-orient:vertical;
+}
+
+
+.clearfix:after,.clearfix:before{content:" "; display:table}
+.clearfix:after{clear:both}
+
+
+.r{float:right!important}
+.l{float:left!important}
+.hide{display:none!important}
+.hidden{overflow:hidden;}
+
+
+.btn{display:inline-block; text-align:center; height:.88rem; line-height:.6rem; padding:0 .32rem; background-color:#bca249; font-size:.28rem; color:#fff; border:0; vertical-align:middle; -webkit-box-sizing:border-box; box-sizing:border-box; cursor:pointer; -webkit-user-select:none}
+.btn-disabled{ background-color:#ddd; color:#ccc}
+.btn-larger{ height:1rem; line-height:1rem font-size:.32rem}
+.btn-block{display:block; width:100%}
+
+
+.abs{ position:absolute}
+.rel{ position:relative}
+.fixed{ position:fixed;}
+.abs-trl{top:0; right:0; left:0;}
+.abs-rbl{ right:0; bottom:0; left:0}
+
+.d-box{display:-webkit-box; display:-ms-flexbox}
+.d-boxc{-webkit-box-pack:center;-webkit-box-align:center; box-pack:center; box-align:center}
+.d-boxj{-webkit-box-pack:justify;-webkit-box-align:justify; box-pack:justify; box-align:justify}
+.d-boxw{-webkit-box-flex:1; box-flex:1}
+
+.d-flex{display:-webkit-flex; display:flex}
+.d-flexj{ -webkit-justify-content:-webkit-space-between;justify-content:space-between}
+.d-flexw{-webkit-flex:1 1 0; flex:1 1 0}
+.flex-wrap{flex-wrap:wrap}
+
+.content_a {
+    box-shadow: 0 -8px 8px rgba(0,0,0,.1);
+    position: relative;
+    z-index: 2;
+}
+.color-jin {
+    color: #C2A45C;
+}
+
+.j_btn a {
+    line-height: 1.2;
+    padding: 10px 0;
+}
+
+
+
+.ico{ display:inline-block; vertical-align:middle;}
+.ico50{ width:.5rem; height:.5rem; background-image:url(ico/50.png); background-size:100% auto}
+.ico50-search{ background-position:0 0}
+.ico50-sortswitch{ background-position:0 -0.5rem}
+.ico50sortswitch{ background-position:0 -1rem}
+.ico50-shoppingBag{ background-position:0 -2.5rem}
+
+.t-mask{ display:block; position:fixed; top:0; right:0; bottom:0; left:0; background:rgba(0,0,0,.7); z-index:9}
+
+.img01{ position:relative; /*padding-top:100%;*/}
+.img01 img{ min-width:100%; max-height:100%; position:absolute; left:50%; top:50%; -webkit-transform:translate(-50%,-50%); transform:translate(-50%,-50%); }
+
+
+.top-search{ height:.94rem}
+.top-search .o-redius{ height:.56rem; border-radius:.16rem}
+.top-search .ico50-search{margin:0 .15rem}
+.top-search .ico50-sortswitch{margin:0 .26rem}
+
